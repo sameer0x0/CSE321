@@ -10,8 +10,10 @@ In this assignment you have to implement a UNIX shell using C. Your shell will b
   Parse and execute system commands.
   For example, running “pwd” will output the absolute path of the directory that your shell is working on.
   Hint: Use “fork” and “exec” system call
+  
 [] Support input (<) and output (> and >>) redirection.
   Hint: Use “dup” and “dup2”
+  
 [] Support command piping (|). Your shell should support any number of piping.
   For example, “command1 | command2 | command3 | command4” should work
 [] Support multiple commands in-line separated by semicolon (;)
